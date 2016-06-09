@@ -1,0 +1,43 @@
+
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-git.min.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row" style="margin-top:60px">
+	<div align="center" class="col-md-offset-2 col-md-8">
+		
+			<h1>Click me !</h1>
+	</div>
+
+    <div align="center" class="col-md-offset-2 col-md-8">
+		    <p>Hide me!</p>
+	</div>
+
+	<div align="center" class="col-md-offset-2 col-md-8">
+		    <button id="btn" class="btn btn-success">Button</button>
+	</div>
+
+</div>
+</div>
+	<script>
+	$("h1").click(function(){
+$(this).slideUp();
+	});
+
+$("p").click(function(){
+$(this).hide();
+
+
+$("#btn").hide();
+
+
+	});
+
+</script>
+</body>
+</html>
