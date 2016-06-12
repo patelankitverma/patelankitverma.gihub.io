@@ -1,6 +1,9 @@
-<html>
 <head>
-<title>bootstrap</title>
+<style>
+span{
+	display:block;
+}
+</style>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -10,15 +13,22 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </head>
 <body>
-
 <div class="container">
-<div class ="column">
-<div class ="col-md-4" style="background-color:blue;height:300px"></div>
-<div class ="col-md-4" style="background-color:red;height:300px"></div>
-<div class ="col-md-4" style="background-color:yellow;height:300px"></div>
-</div>
-</div>
+	<div class="row" style="margin-top:60px;"></div>
+	<div class="col-md-offset-2 col-md-4"></div>
+
+	<img src="ankit.jpg" height="50%" width="50%">
+	<form method="post" action="my">
+		<input type="text" required="required" name="name" class="form-control" />
+		<input type="password" required="required" name="pwd" class="form-control" />
+		<input type="email" required="email" name="pwd" class="form-control" />
+
+
+		<button class="btn-lg btn btn-info">Submit</button>
+	</form>
+</div>>
+
 </body>
-</html>

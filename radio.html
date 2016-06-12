@@ -6,12 +6,40 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="http://code.jquery.com/jquery-git.min.js"></script>
 
+<style type="text/css">
+.box{
+	padding: 20px;
+	display: none;
+	border: 1px solid black;
+}
+
+.red{
+	background-color: yellow;
+	padding: 20px;
+	display: none;
+	border: 1px solid black;
+}
+	
+.blue{
+	background-color: blue;
+	padding: 20px;
+	display: none;
+	border: 1px solid black;
+}
+
+
+</style>
+
 </head>
 <body>
-<select id="countrySq">
-	
-</select>>
+<div  class="container">
+	car:<input type="radio" value="car" name="vehicle">
 
+	bike:<input type="radio" value="bike" name="vehicle">
+
+<div class="box red"> </div>
+<div class="box blue"> </div>
+</div>
 <script>
 
 $('input[type="radio"]').click(function(){
